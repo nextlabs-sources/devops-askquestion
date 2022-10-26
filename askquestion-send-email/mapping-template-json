@@ -1,0 +1,27 @@
+{
+    "TableName": "askquestion",
+    "Item": {
+        "registerDate" : {
+             "S": "$input.path('$.registerDate')"
+        },
+        "name": {
+            "S": "$input.path('$.name')"
+        },
+        "company": {
+            "S": "$input.path('$.company')"
+        },
+        "message": {
+            "S": "$input.path('$.message')"
+        },
+         "email": {
+            "S": "$input.path('$.email')"
+        },
+        "phone": {
+            "S": "$input.path('$.phone')"
+        }
+        ,
+        "sourceType": {
+            "S": "$input.path('$.sourceType')"
+        }
+    }
+}
